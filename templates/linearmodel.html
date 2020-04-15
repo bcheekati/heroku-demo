@@ -1,6 +1,6 @@
 <html>
    <body>
-      <form action = "http://localhost:5000/linearmodel" method = "post">
+      <form action = "{{ url_for('linearmodel')}}" method = "post">
          <p>Enter Years of Experience :</p>
          <p><input type = "text" name = "x_values" /></p>
          <p><input type = "submit" value = "Submit" /></p>
